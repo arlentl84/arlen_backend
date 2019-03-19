@@ -17,13 +17,7 @@ configExpress(app);
 configRoutes(app);
 configErrors(app);
 Db.Initialize().then(()=>{
-    console.log('All Ok');
+    console.log(`El servidor esta corriendo por el puerto: ${config.development.server.port}`);
 })
 
-// configDatabase(mongoose => {
-//
-//
-// })
-// ;
-app.listen(3000);
 module.exports = server;

@@ -15,7 +15,7 @@ class UserModel extends BaseModel{
             password: {type: String, required: true},
             rol: [{
                 type: String,
-                enum: ['admin']
+                enum: ['Admin', 'User', 'Root']
             }]
         });
 

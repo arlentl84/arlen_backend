@@ -2,19 +2,19 @@
  * Created by Arlen on 15/03/2019.
  */
 "use strict";
-const BaseManager = require('./BaseManager')
+const BaseRepository = require('./BaseRepository')
 
-class ObraManager extends BaseManager {
+class ObraRepository extends BaseRepository {
 
-    static getModelName(){
-        return 'ObraModel';
+    get getModelName(){
+        return 'Obra';
     }
 
     static get getInstance(){
-        return new ObraManager();
+        return new ObraRepository();
     }
 
-    static get Type(){ return 'ObraManager'}
+    static get Type(){ return 'ObraRepository'}
 
 
     static async CrearObra(obraObj){
@@ -43,4 +43,4 @@ class ObraManager extends BaseManager {
     }
 }
 
-module.exports = ObraManager;
+module.exports = ObraRepository;

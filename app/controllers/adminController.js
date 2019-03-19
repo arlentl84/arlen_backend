@@ -2,7 +2,7 @@
  * Created by Arlen on 17/03/2019.
  */
 
-const userManager = require('./../managers/userManager')
+const userManager = require('../Repository/userRepository')
 const security = require('./../../lib/requestScurity')
 const request = require('request');
 const path = require('path');

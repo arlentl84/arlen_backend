@@ -4,7 +4,7 @@
 
 const singleton = Symbol();
 
-class BaseManager {
+class BaseRepository {
 
     constructor() {
 
@@ -12,7 +12,6 @@ class BaseManager {
 
     static get Singleton() {
         if (!this[singleton]) {
-            console.log('Instanciando ' + this.Type);
             this[singleton] = this.getInstance;
         }
 
@@ -21,9 +20,7 @@ class BaseManager {
 
     static get Type(){}
 
-    static get getInstance(){
-
-    }
+    static get getInstance(){}
 
     get getModelName(){ }
 
@@ -48,8 +45,6 @@ class BaseManager {
 
     let myModel = db[this.getModelName];
 
-    condition.removed = false;
-
     let query = myModel.find(condition);
 
     if ( sort )
@@ -70,7 +65,7 @@ class BaseManager {
 
     async Create(record) {
 
-    let myModel = new db[this.getModelName()](record);
+    let myModel = new db[this.getModelName](record);
 
     const obj = await myModel.save();
 
@@ -97,4 +92,4 @@ class BaseManager {
 }
 
 }
-module.exports = BaseManager;
+module.exports = BaseRepository;

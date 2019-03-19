@@ -5,7 +5,7 @@
 
 const request = require('request');
 const path = require('path');
-const enterpriseManager = require('./../../managers/enterpriseManager')
+const enterpriseManager = require('./../../Repository/enterpriseManager')
 
 class EnterpriseController {
 
