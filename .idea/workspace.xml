@@ -2,24 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="862a372b-b18c-484b-9263-201835de0cd9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/adminController.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/adminController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/enterpriseController.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/enterpriseController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/homeController.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/homeController.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/obraController.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/obraController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/managers/BaseManager.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/Repository/BaseRepository.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/managers/enterpriseManager.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/Repository/enterpriseRepository.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/managers/obraManager.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/Repository/obraRepository.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/managers/userManager.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/Repository/userRepository.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/userModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/userModel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/Db/Models.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Db/Models.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/requestScurity.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/requestScurity.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/routes.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -34,21 +19,17 @@
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.49478206">
+    <splitter split-orientation="horizontal" split-proportion="0.48741558">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/controllers/homeController.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="374">
-                  <caret line="28" column="27" lean-forward="true" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+                <state relative-caret-position="442">
+                  <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
                   <folding>
                     <element signature="e#0#42#0" />
-                    <element signature="e#580#683#0" />
-                    <element signature="e#800#830#0" />
                     <element signature="n#!!block;n#LoadUsers#0;n#HomeController#0" />
-                    <element signature="e#1081#1180#0" />
-                    <element signature="e#1195#1226#0" />
                   </folding>
                 </state>
               </provider>
@@ -57,20 +38,17 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/controllers/obraController.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="357">
-                  <caret line="23" column="73" lean-forward="true" selection-start-line="23" selection-start-column="73" selection-end-line="23" selection-end-column="73" />
-                  <folding>
-                    <element signature="n#!!doc" />
-                    <element signature="n#!!block;n#LoadObras#0;n#HomeController#0" />
-                    <element signature="e#772#874#0" />
-                    <element signature="e#889#920#0" />
-                    <element signature="n#!!block;n#ObraByName#0;n#HomeController#0" />
-                    <element signature="e#1173#1331#0" />
-                    <element signature="e#1346#1376#0" />
-                    <element signature="n#!!block;n#ObraByID#0;n#HomeController#0" />
-                    <element signature="e#1428#1577#0" />
-                    <element signature="e#1592#1622#0" />
-                  </folding>
+                <state relative-caret-position="884">
+                  <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/lib/express.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="612">
+                  <caret line="36" column="19" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
                 </state>
               </provider>
             </entry>
@@ -79,7 +57,25 @@
             <entry file="file://$PROJECT_DIR$/app/Repository/obraRepository.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="272">
-                  <caret line="16" column="47" lean-forward="true" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+                  <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="272">
+                  <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/package.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="17">
+                  <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
                 </state>
               </provider>
             </entry>
@@ -87,17 +83,16 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/Repository/BaseRepository.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="340">
-                  <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+                  <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
                   <folding>
                     <element signature="e#0#42#0" />
                     <element signature="n#!!block;n#constructor#0;n#BaseRepository#0" />
                     <element signature="n#!!block;n#Find#0;n#BaseRepository#0" />
-                    <element signature="e#679#720#0" />
                     <element signature="n#!!block;n#Remove#0;n#BaseRepository#0" />
                     <element signature="n#!!block;n#RemoveAll#0;n#BaseRepository#0" />
                     <element signature="n#!!block;n#Update#0;n#BaseRepository#0" />
@@ -109,8 +104,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/models/obraModel.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="374">
-                  <caret line="22" column="39" lean-forward="true" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+                <state relative-caret-position="459">
+                  <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
                 </state>
               </provider>
             </entry>
@@ -203,11 +198,11 @@
         <option value="$PROJECT_DIR$/app/Repository/userRepository.js" />
         <option value="$PROJECT_DIR$/lib/Db/Models.js" />
         <option value="$PROJECT_DIR$/app/models/userModel.js" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/app/Repository/BaseRepository.js" />
         <option value="$PROJECT_DIR$/app/controllers/homeController.js" />
         <option value="$PROJECT_DIR$/routes/routes.js" />
         <option value="$PROJECT_DIR$/app/Repository/obraRepository.js" />
+        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/app/controllers/obraController.js" />
       </list>
     </option>
@@ -357,12 +352,14 @@
       <workItem from="1552907869480" duration="2553000" />
       <workItem from="1552918643372" duration="487000" />
       <workItem from="1552925819020" duration="12400000" />
-      <workItem from="1553028512024" duration="3742000" />
+      <workItem from="1553028512024" duration="4267000" />
+      <workItem from="1553036063037" duration="2083000" />
+      <workItem from="1553102205545" duration="1163000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36350000" />
+    <option name="totallyTimeSpent" value="40121000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -372,7 +369,6 @@
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="npm" order="2" sideWeight="0.55492955" side_tool="true" weight="0.2056575" />
       <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Docker" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4938838" weight="0.3289225" />
@@ -381,8 +377,9 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5061162" side_tool="true" weight="0.3289225" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.4938838" visible="true" weight="0.3211111" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.4938838" visible="true" weight="0.29666665" />
       <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -474,20 +471,6 @@
     <entry file="file://$PROJECT_DIR$/../node-angular-crud-example-master/node-angular-crud-example-master/models/book.js" />
     <entry file="file://$PROJECT_DIR$/../node-angular-crud-example-master/node-angular-crud-example-master/app.js" />
     <entry file="file://$PROJECT_DIR$/../node-angular-crud-example-master/node-angular-crud-example-master/models/genre.js" />
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/express.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="36" column="19" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/requestScurity.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -509,22 +492,60 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Db/Db.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/homeController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#42#0" />
+            <element signature="n#!!block;n#LoadUsers#0;n#HomeController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/express.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="19" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Repository/obraRepository.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="95" lean-forward="true" selection-start-line="19" selection-start-column="95" selection-end-line="19" selection-end-column="95" />
+        <state relative-caret-position="272">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Repository/BaseRepository.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
-          <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+          <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
           <folding>
             <element signature="e#0#42#0" />
             <element signature="n#!!block;n#constructor#0;n#BaseRepository#0" />
             <element signature="n#!!block;n#Find#0;n#BaseRepository#0" />
-            <element signature="e#679#720#0" />
             <element signature="n#!!block;n#Remove#0;n#BaseRepository#0" />
             <element signature="n#!!block;n#RemoveAll#0;n#BaseRepository#0" />
             <element signature="n#!!block;n#Update#0;n#BaseRepository#0" />
@@ -532,10 +553,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Db/Db.js">
+    <entry file="file://$PROJECT_DIR$/app/Repository/userRepository.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="68">
+          <caret line="4" column="50" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
         </state>
       </provider>
     </entry>
@@ -560,58 +581,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Repository/userRepository.js">
+    <entry file="file://$PROJECT_DIR$/app/controllers/obraController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="50" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/homeController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="28" column="27" lean-forward="true" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#42#0" />
-            <element signature="e#580#683#0" />
-            <element signature="e#800#830#0" />
-            <element signature="n#!!block;n#LoadUsers#0;n#HomeController#0" />
-            <element signature="e#1081#1180#0" />
-            <element signature="e#1195#1226#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Repository/obraRepository.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="47" lean-forward="true" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+        <state relative-caret-position="884">
+          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/obraModel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="39" lean-forward="true" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/obraController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="23" column="73" lean-forward="true" selection-start-line="23" selection-start-column="73" selection-end-line="23" selection-end-column="73" />
-          <folding>
-            <element signature="n#!!doc" />
-            <element signature="n#!!block;n#LoadObras#0;n#HomeController#0" />
-            <element signature="e#772#874#0" />
-            <element signature="e#889#920#0" />
-            <element signature="n#!!block;n#ObraByName#0;n#HomeController#0" />
-            <element signature="e#1173#1331#0" />
-            <element signature="e#1346#1376#0" />
-            <element signature="n#!!block;n#ObraByID#0;n#HomeController#0" />
-            <element signature="e#1428#1577#0" />
-            <element signature="e#1592#1622#0" />
-          </folding>
+        <state relative-caret-position="459">
+          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
         </state>
       </provider>
     </entry>

@@ -4,6 +4,7 @@ const http = require('http');
 let app = express();
 let server = http.Server(app);
 let debug = require('debug')('http');
+const cors = require('cors');
 
 const configExpress = require('./lib/express');
 const configRoutes = require('./routes/routes');
@@ -13,6 +14,7 @@ const Db = require('./lib/Db/Db');
 
 global.config = require('./config.json');
 
+app.use(cors());
 configExpress(app);
 configRoutes(app);
 configErrors(app);
